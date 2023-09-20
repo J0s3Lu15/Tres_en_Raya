@@ -19,7 +19,7 @@ Observa el tablero y disfruta del juego.
 Si ganas o se produce un empate, se te preguntará si quieres jugar de nuevo.
 ![Ejemplo de Imagen](./Muestras/2.jpg)
 
-## Explicacion del algoritmo minimax con poda alfa-beta usado en el codigo:
+## Explicación del algoritmo minimax con poda alfa-beta usado en el codigo:
 La función minimax es como el cerebro de la computadora. Ayuda a la computadora a pensar en las mejores jugadas posibles. Ahora, vamos a usar la explicación del algoritmo para entender cómo funciona dentro de esta función.
 
 is_maximizing es como un interruptor que dice si la computadora está tratando de maximizar sus posibilidades de ganar (cuando es su turno) o minimizar tus posibilidades de ganar (cuando es tu turno).
