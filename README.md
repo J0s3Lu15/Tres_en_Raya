@@ -1,4 +1,4 @@
-Juego de Tres en Raya
+# Juego de Tres en Raya
 Este es un juego de Tres en Raya implementado en Python. Puedes jugar contra la máquina que utiliza el algoritmo Minimax con poda alfa-beta para tomar decisiones.
 
 ## Reglas del juego:
@@ -14,12 +14,12 @@ Ejecuta el programa y sigue las instrucciones para elegir 'X' o 'O'.
 python TresEnRaya.py
 ```
 Ingresa las coordenadas de tu movimiento en formato fila, columna (por ejemplo, "1,2").
-
+![Ejemplo de Imagen](./Muestras/1.jpg)
 Observa el tablero y disfruta del juego.
 Si ganas o se produce un empate, se te preguntará si quieres jugar de nuevo.
+![Ejemplo de Imagen](./Muestras/2.jpg)
 
-Explicacion del algoritmo minimax con poda alfa-beta usado en el codigo:
-
+## Explicacion del algoritmo minimax con poda alfa-beta usado en el codigo:
 La función minimax es como el cerebro de la computadora. Ayuda a la computadora a pensar en las mejores jugadas posibles. Ahora, vamos a usar la explicación del algoritmo para entender cómo funciona dentro de esta función.
 
 is_maximizing es como un interruptor que dice si la computadora está tratando de maximizar sus posibilidades de ganar (cuando es su turno) o minimizar tus posibilidades de ganar (cuando es tu turno).
